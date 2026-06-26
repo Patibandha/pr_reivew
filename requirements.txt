@@ -1,0 +1,10 @@
+# Core: official MCP SDK powers the AgentCore Gateway server + client.
+mcp>=1.2.0
+
+# Optional: real AgentCore Runtime SDK. If installed, runtime/app.py uses it
+# automatically; otherwise a local HTTP shim provides the same contract.
+# bedrock-agentcore>=0.1.0
+
+# Optional: Claude-backed narration (enabled only when ANTHROPIC_API_KEY is set
+# and PR_AGENT_LLM=claude). The agent runs fully offline without it.
+# anthropic>=0.40.0
